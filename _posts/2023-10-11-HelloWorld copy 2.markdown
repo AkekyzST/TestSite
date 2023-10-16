@@ -1,12 +1,12 @@
 ---
-layout: post
-title:  "Step 1"
+layout: default
+title:  "Welcome to my Blog"
 date:   2023-10-11
 categories: blogs
 ---
 
 # Heading
-### Heading 1
+### Heading 4
 
 - asd
 - we

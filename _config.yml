@@ -10,11 +10,12 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://akekyzst.github.io'
-baseurl:          '/testsite'
+baseurl:          '/TestSite'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
 
 toc:
   enabled: true
@@ -54,14 +55,24 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-page_width: 800px
+page_width: 1200px
 
 destination:      ./_site
 incremental:      false
 regenerate:       true
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-readme-index
+  - jemoji
+  - jekyll-include-cache
+  
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
