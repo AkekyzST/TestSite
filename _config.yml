@@ -14,7 +14,7 @@ baseurl:          '/testsite'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 toc:
   enabled: true
@@ -64,3 +64,4 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-include-cache
